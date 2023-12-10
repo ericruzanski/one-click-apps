@@ -10,7 +10,7 @@ JupyterLab is a web-based interactive development environment for notebooks, cod
 | Fail2ban  | 0.11.2   | Provides protection against brute force and authentication attempts |
 | UFW | 0.36 | Easy-to-use firewall wrapper used to allow HTTP/S and SSH ports |
 | Certbot | 1.12.0 | Is used to obtain HTTPS/TLS/SSL certitifcate for the provided domain |
-| JupyterLab | 1.12.0 | - Ubuntu 22.04 LTS |
+| JupyterLab | 4.0.x | Web-based interactive development environment for notebooks, code, and data |
 
 
 **Supported Distributions:**
