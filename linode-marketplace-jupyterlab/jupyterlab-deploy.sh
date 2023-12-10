@@ -90,7 +90,7 @@ function udf {
 function run {
   # install dependancies
   apt-get update
-  apt-get install -y git python3 python3-pip nginx
+  apt-get install -y git python3 python3-pip python3-venv
 
   # clone repo and set up ansible environment
   git -C /tmp clone ${GIT_REPO}
@@ -99,7 +99,7 @@ function run {
 
   # venv
   cd ${WORK_DIR}/${MARKETPLACE_APP}
-  pip3 install virtualenv
+  pip install virtualenv
   python3 -m python3 -m virtualenv env --system-site-packages
   source env/bin/activate
   pip install pip --upgrade
